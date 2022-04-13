@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<link type="text/css" rel="stylesheet" media="(max-width:700px)" href="css/main_mobile.css">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link type="text/css" rel="stylesheet" media="(min-width:700px)" href="css/register.css"></link>
+		<meta charset="UTF-8">
+		<title>회원가입</title>
+	<header>
+        <a href="#" id="logo">
+            <h1>애도</h1>
+        </a>
+    </header>
+	<main>
+		<div class="contain">
+			<form method="post" action="">
+				<p><h1>회원가입</h1></p>
+				<h4>
+					전화번호: <input type="text" name="phone" class="phone" value=""autocomplete='off'></br>
+					생년월일: <input type="date" name="birth" class="birth"  value="" autocomplete='off'></br>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp이름:<input type="text" name="name" class="name"  value=""autocomplete='off'></br>
+				</h4>
+			</form>
+			<iframe src="terms.html"></iframe>
+			<div class="terms_box">
+				<label for="terms"><input type="checkbox" id="terms" name="terms" value=""  disabled="disable">
+				위 약관을 읽고 동의하시겠습니까? </label>
+			</div>
+		</div>
+	</main>
+	</body>
+</html>

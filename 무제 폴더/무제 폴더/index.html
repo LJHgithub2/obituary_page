@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애도</title>
+    <link rel="stylesheet" href="./folder/lib/setup.css">
+    <style>
+        body{
+            background-image: url(./folder/img/상단_bg.png);
+            background-repeat: no-repeat;
+			background-size:contain;
+        }
+        
+        header{
+            height: 100px;
+            margin: 8px 16px 0px;
+            line-height: 40px;
+        }
+        header #logo{
+            float: left;
+        }
+        header #logo h1{
+            font-size: 0px;
+			background-image: url(./folder/img/logo.png);
+			background-size: 146px 68px;
+			background-repeat: no-repeat;
+			background-position: center;
+			display: inline-block;
+			width: 180px;
+			height: 80px;
+        }
+
+        header nav{
+        float: right;  
+        margin-top: 18px;  
+        }
+        header nav ul{}
+        header nav ul li{
+            width: 128px;
+            height: 48px;
+            margin: 0px 6px;
+            padding: 8px;
+            border: 3px solid #FFFFFF;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        header nav ul li a{
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        main{
+           
+        }
+        main .page1{
+            margin-top: 160px;
+        }
+        main .page1 p{
+           font-size: 66px; 
+           font-weight: bold;
+           text-align: center;
+        }
+        main .page1 .box{
+          margin-top: 28px;  
+        }
+        main .page1 .box ul > li{
+            width: 128px;
+            height: 48px;
+            margin: 0px 6px;
+            padding: 10px;
+            border-radius: 4px;
+            box-sizing: border-box;  
+            background-color: black;
+        }
+        main .page1 .box ul > li > a{
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+        main .page1 .arrow_icon{
+            text-align: center; 
+            width: 100px;
+            height: 40px;
+            background-image: url(./folder/img/arrow_icon.png);
+			background-size: 80px 40px;
+			background-repeat: no-repeat;
+			background-position: center;
+			display: inline-block;
+            margin: 100px 0px;
+        }
+        
+        main .page2{
+           font-size: 40px; 
+           text-align: center;
+           height: 50vh; 
+           margin-top: 200px; 
+           font-weight: 600;
+        }
+
+        main .page3{
+            height: 1000px;
+        }
+        main .page3 .intro{
+          position: absolute;
+          width: 632px;
+          height: 177px;
+          left: 129px;
+          font-weight: 600;
+          font-size: 50px;
+          top: 1500px;
+          text-align: left;
+          
+        }
+        main .page3 .service{
+            position: absolute;
+            width: 707px;
+            height: 145px;
+            left: 650px;
+            top: 2190px;
+            z-index: 5;
+            text-align: left;
+        }
+        main .page3 .service .service_nav{
+            font-weight: 400;
+        }
+        main .page3 .service .service_nav ul > li > a{
+            margin: 0px 10px;
+            font-size: 18px;
+        }
+        main .page3 .service .ment{
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        main .page4{
+           font-size: 40px; 
+           height: 650px; 
+           font-weight: 600;  
+        }
+        main .page4 .intro{
+          position: absolute;
+          width: 476px;
+          height: 154px;
+          left: 675px;
+          font-weight: 600;
+          font-size: 50px;
+          top: 2622px;
+          text-align: left;
+        }
+        main .page4 .service{
+            position: absolute;
+            left: 675px;
+            top: 2784px;
+            text-align: left;
+        }
+        main .page4 .service .service_nav{
+            font-weight: 400;
+            
+        }
+        main .page4 .service .service_nav ul > li > a{
+            margin: 0px 10px;
+            font-size: 18px;
+        }
+        main .page4 .service .ment{
+            font-size: 24px;
+            margin-top: 10px;
+            font-weight: 400;
+        }
+
+        main .page5{
+           font-size: 40px; 
+           height: 650px; 
+           
+           font-weight: 600;  
+        }
+        main .page5 .intro{
+          position: absolute;
+          width: 602px;
+          height: 154px;
+          left: 131px;
+          font-weight: 600;
+          font-size: 50px;
+          top: 3237px;
+          text-align: left;
+        }
+        main .page5 .service{
+            position: absolute;
+            left: 131px;
+            top: 3403px;
+            text-align: left;
+        }
+        main .page5 .service .service_nav{
+            font-weight: 400;
+            
+        }
+        main .page5 .service .service_nav ul > li > a{
+            margin: 0px 10px;
+            font-size: 18px;
+        }
+        main .page5 .service .ment{
+            font-size: 24px;
+            margin-top: 10px;
+            font-weight: 400;
+        }
+
+        main .page6{
+           font-size: 40px; 
+           height: 650px; 
+           
+           font-weight: 600;  
+        }
+        main .page6 .intro{
+          position: absolute;
+          width: 602px;
+          height: 154px;
+          left: 131px;
+          font-weight: 600;
+          font-size: 50px;
+          top: 3899px;
+          text-align: left;
+        }
+        main .last{
+           font-size: 40px; 
+           font-weight: bold;
+           text-align: center;
+           height: 400px;
+           margin-top: 200px;
+        }
+        
+        main .outro{
+            height: 600px;
+        }
+        
+        footer{
+            height: 200px;
+            text-align: left;
+            background-color: #444444;
+            color: white;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <a href="#" id="logo">
+            <h1>애도</h1>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">부고작성</a>
+                </li>
+                <li>
+                    <a href="#">화환주문</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="page1">
+            <p>애도와 함께하는 <br> 편안하고 안온한 장례식</p>
+            <div class="box">
+                <ul>
+                    <li><a href="#">Gooleplay</a></li>
+                    <li><a href="#">Appstore</a></li>
+                </ul>
+            </div>
+            <div class="arrow_icon"></div>
+        </div>
+
+        <div class="page2">
+            필요한 정보를 확실하고, 꼼꼼하게 <br>
+            간결하고 명확한 편의기능으로 <br>
+            스마트 장례를 진행해보세요.
+        </div>
+
+        <div class="page3">
+            <div class="intro">장례식장이 추천하는 애도만의 특별한 서비스</div>
+            <br>
+            <div class="service">
+                <div class="service_nav">
+                    <ul>
+                        <li><a href="#">모바일부고</a></li>
+                        <li><a href="#">근조화환배송</a></li>
+                        <li><a href="#">장례식장 예약</a></li>
+                        <li><a href="#">조문관리</a></li>
+                    </ul>
+                </div>
+                <div class="ment">
+                    보낸 조문과 받은 조문을 간편하게 관리하는 서비스
+                </div>
+                <img src="" alt="">
+            </div>
+        </div>
+       
+        <div class="page4">
+            <img src="" alt="">
+            <div class="intro">모바일 부고서비스,<br>이제 애도하세요. </div> 
+            <div class="service">
+                <div class="service_nav">
+                    <ul>
+                        <li><a href="#">작성</a></li>
+                        <li><a href="#">공유</a></li>
+                        <li><a href="#">검색</a></li>
+                        <li><a href="#">길찾기</a></li>
+                    </ul>
+                </div>
+                <div class="ment">
+                   작성은 간편하지만, 고마운 마음을 담아서 전달해보세요. 
+                </div>
+            </div>
+        </div>
+       
+        <div class="page5">
+            <div class="intro">어렵고 복잡한 장례식장,<br>예약 이제 애도하세요.</div> 
+            <div class="service">
+                <div class="service_nav">
+                    <ul>
+                        <li><a href="#">장례식장 검색</a></li>
+                        <li><a href="#">제휴혜택</a></li>
+                    </ul>
+                </div>
+                <div class="ment">
+                  전국 장례식장을 한 눈에 검색하고, 간편하게 예약하세요.
+                </div>
+            </div> 
+            <img src="" alt="">
+        </div>
+        
+        <div class="page6 ">
+            <img src="" alt="">
+            <div class="intro">전국 근조화환 배송도<br>이제 애도하세요.</div> 
+        </div>
+
+        <div class="last">
+            상주님께 애도의 글을 전달해보세요. <br>
+            당신의 위로가 큰 힘이 됩니다. <br> 
+        </div>
+         <div class="outro">
+             <img src="" alt="">
+         </div>
+    </main>
+    <footer>
+        사업자 정보 : 대표 박인호<br>
+        사업자 명 : 청란 플라워<br>
+        사업장 소재지 : 전라남도 구례군 구례읍 구례2길 83-1<br>
+        사업장 번호 : 448-92-01531<br>
+        사업 종류 : 도소매
+    </footer>
+</body>
+</html>

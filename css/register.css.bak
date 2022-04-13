@@ -1,0 +1,74 @@
+@font-face{
+	font-family: 'Pretendard';
+	src:url('../font/PretendardVariable.woff2') format('woff2'),
+	    url('../font/PretendardVariable.woff2') format('truetype');
+}
+body{ 
+	font-family:'pretendard';
+	color:#0033ff;
+	background-image: url("../image/top_bg.png");
+	background-repeat: no-repeat;
+	background-size:100vw 100vh;
+}
+header{
+	height: 100px;
+	margin: 8px 16px 0px;
+	line-height: 40px;
+}
+header #logo{
+	float: left;
+}
+header #logo h1{
+	font-size: 0px;
+	background-image: url("../image/logo.png");
+	background-size: 146px 68px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 180px;
+	height: 80px;
+}
+
+.contain{ 
+	margin:0px auto;
+	border:1px solid black;
+	width:80vw;
+	height:70vh;
+	/*  column-count:2;
+	column-gap:32px;
+	column-width:250px;*/
+	
+}
+form{ 
+	width:50%;
+	float:left; 
+	text-align:center;
+}
+iframe{ 
+	float:right;
+	width:40%;
+	height:83%;
+	margin: 1rem 1rem 0rem 0rem;
+}
+.terms_box{ 
+	text-align:center;
+	margin:1rem 1rem;
+	width:40%;
+	clear:both;
+	float:right; 
+}
+form input{ 
+	margin:3rem 0rem 1rem 2rem;
+	 width:40%;
+	 height:2rem;
+	border-radius:5px; 
+	text-align:center;
+}
+form input:focus{ 
+	border: 5px solid blue;
+	background-color:#dadada; 
+}
+form input[type=text]{ 
+}
+form input[type=date]{ 
+}
