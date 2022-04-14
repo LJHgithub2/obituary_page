@@ -1,0 +1,7 @@
+
+$("html").ready(function(){
+	$("#terms_iframe").contents().scrollTop('200');
+});
+$("#terms_iframe").contents().scroll(function() {
+	alert("dd0");
+});
