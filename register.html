@@ -14,24 +14,48 @@
 			</a>
 		</header>
 		<main>
+
 			<div class="contain">
-				<form method="post" action="">
-					<p><h1>회원가입</h1></p>
-					<h4>
-						전화번호: <input type="text" name="phone" class="phone" value="sags"autocomplete='off'></br>
-						생년월일: <input type="date" name="birth" class="birth"  value="" autocomplete='off'></br>
-						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp이름:<input type="text" name="name" class="name"  value=""autocomplete='off'></br>
-					</h4>
+				<form method="post" action="http://118.67.128.124:8080/v1/user">
+					<table border="1px solid">
+						<tr colspan="2">
+							<td colspan="2"><p><h1>회원가입</h1></p></tdcolspan="2">
+						</tr>
+						<tr>
+							<td>전화번호:</td>
+							<td><input type="text" name="phone" class="phone" value="sags"autocomplete='off'>
+							</td>
+						</tr>
+						<tr>
+							<td>생년월일:</td>
+							<td><input type="date" name="birth" class="birth"  value="" autocomplete='off'>
+							</td>
+						</tr>
+						<tr>
+							<td>이름:</td>
+							<td><input type="text" name="name" class="name"  value=""autocomplete='off'>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" disabled="disable"></td>
+						</tr>
+								
+
+						</table>
+		<div class="terms_box">
+			<iframe src="terms.html" id="terms_iframe" scrolling="no"></iframe>
+			<div class="terms_checkbox">
+				<label for="terms">
+					<input type="checkbox" id="terms" name="terms" value="" disabled="disable">
+				위 약관을 읽고 동의하시겠습니까? </label>
+			</div>
+
+		</div>
 				</form>
-				<iframe src="terms.html" id="terms_iframe"></iframe>
-				<div class="terms_box">
-					<label for="terms"><input type="checkbox" id="terms" name="terms" value=""  disabled="disable">
-					위 약관을 읽고 동의하시겠습니까? </label>
-				</div>
 			</div>
 		</main>
 
-
+		
 
 
 		<script type="text/javascript" src="script/jquery-1.10.1.min.js"></script>

@@ -40,27 +40,29 @@ header #logo h1{
 	
 }
 form{ 
-	width:50%;
-	float:left; 
-	text-align:center;
+	
+	height:100%; 
 }
+table{ 
+	text-align:center;
+	float:left; 
+	height:100%;
+	width:50%;
+	margin:0px auto;
+}
+
 iframe{ 
-	float:right;
-	width:40%;
-	height:83%;
-	margin: 1rem 1rem 0rem 0rem;
+width:100%;
+height:80%;
 }
 .terms_box{ 
-	text-align:center;
-	margin:1rem 1rem;
-	width:40%;
-	clear:both;
-	float:right; 
+text-align:center;
+width:49%;
+height:100%;
+float:left;
 }
+
 form input{ 
-	margin:3rem 0rem 1rem 2rem;
-	width:40%;
-	height:2rem;
 	border-radius:5px; 
 	text-align:center;
 	border:2px solid #cccccc;
@@ -74,5 +76,24 @@ form input:focus{
 }
 form input[type=text]{ 
 }
-form input[type=date]{ 
+form input[type=submit]{ 
+	position:relative;
+	border:1px solid darkred;
+	background:gray;
+	color:darkred;
+}
+form input[type=submit]:disabled{ 
+	background:gray;
+	opacity:0.5;
+}
+form input[type=submit]:enabled:hover{ 
+	cursor:pointer;
+	background:black;
+}
+.terms_checkbox{ 
+	margin:10% 0%; 
+}
+.check_phone{ 
+	 margin:0px;
+	 padding:0px;
 }
